@@ -37,10 +37,11 @@ body{
     background:gray;
 }
 .tekst{
-    width: 500px;
-    height: 100px;
-    margin: 80px;
+    width: 600px;
+    height: auto;
+    margin: 50px;
     grid-area: tekst;
+    
 
     
 }
@@ -49,7 +50,7 @@ body{
     max-width: 200px;
     grid-area: image;
     height: 200px;
-    margin: 20px;
+    margin: 20px 20px 20px 30px;
     
     
 }
@@ -114,6 +115,7 @@ img{
     text-align: center;
     letter-spacing: 1px;
     margin-bottom: 30px;
+    border-bottom: 1px solid white;
 }
 
 .skills ul li{
@@ -131,5 +133,5 @@ img{
     position: relative;
     height: 1000px;
     width: 600px;
-    background:orange;
+    background:rgb(109, 109, 212);
 }
