@@ -1,0 +1,135 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    display: grid;
+    margin: 50px;
+    grid-template-areas: "header header" "sidebar content" "sidebar content";
+    max-width: 1000px;
+    min-height: 1200px;
+}
+.up-side{
+    grid-area: header;
+}
+.left-side{
+    grid-area: sidebar;
+}
+.right-side{
+    grid-area: content;
+}
+.container .up-side{
+    width: 1000px;
+    display: grid;
+    grid-template-areas: "image tekst" "name name";
+    position: static;
+    max-height: 500px;
+    background:gray;
+}
+.tekst{
+    width: 500px;
+    height: 100px;
+    margin: 80px;
+    grid-area: tekst;
+
+    
+}
+.image-container
+{
+    max-width: 200px;
+    grid-area: image;
+    height: 200px;
+    margin: 20px;
+    
+    
+}
+.name-part{
+    
+    height: 60px;
+    background-color: rgb(190, 178, 178);
+    grid-area: name;
+
+
+    
+}
+h1{
+    align-self: center;
+    margin: 10px 10px 20px 30px ;
+}
+img{
+    width: 100%;
+    height: 100%;
+    
+
+   
+}
+.container .left-side{
+    
+    height: 1000px;
+    width: 400px;
+    background: black;
+    
+}
+.contact{
+    margin: 30px;
+    padding-bottom: 40px;
+
+    
+}
+.skills{
+    margin: 30px;
+}
+.contact ul{
+    position: relative;
+}
+.contact ul li{
+    margin: 10px 0;
+    position: relative;
+    padding-bottom: 20px;
+}
+.contact ul li .icon{
+    display: inline-block;
+    width: 40px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+.contact ul li span{
+    color: white;
+    font-weight: 300;
+}
+.title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.skills ul li{
+    color: white;
+    margin-left: 20px;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+.Languages ul li{
+    color: white;
+    margin-left: 50px;
+    padding: 10px;
+}
+.container .right-side{
+    position: relative;
+    height: 1000px;
+    width: 600px;
+    background:orange;
+}
