@@ -1,194 +1,193 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    font-family:Arial, Helvetica, sans-serif;
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
-body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
-.container{
-    position: relative;
-    width: 100%;
-    display: grid;
-    margin: 50px;
-    grid-template-areas: "header header" "sidebar content" "sidebar content";
-    max-width: 1000px;
-    min-height: 1200px;
+.container {
+  position: relative;
+  width: 100%;
+  display: grid;
+  margin: 50px;
+  grid-template-areas: "header header" "sidebar content" "sidebar content";
+  max-width: 1000px;
+  min-height: 1200px;
 }
-.up-side{
-    grid-area: header;
+.up-side {
+  grid-area: header;
 }
-.left-side{
-    grid-area: sidebar;
+.left-side {
+  grid-area: sidebar;
 }
-.right-side{
-    grid-area: content;
+.right-side {
+  grid-area: content;
 }
-.container .up-side{
-    width: 1000px;
-    display: grid;
-    grid-template-areas: "image tekst" "name name";
-    position: static;
-    max-height: 500px;
-    background:rgb(83, 81, 81);
+.container .up-side {
+  width: 1000px;
+  display: grid;
+  grid-template-areas: "image tekst" "name name";
+  position: static;
+  max-height: 500px;
+  background: rgb(83, 81, 81);
 }
-.tekst{
-    width: 600px;
-    height: auto;
-    margin: 50px;
-    grid-area: tekst;  
+.tekst {
+  width: 600px;
+  height: auto;
+  margin: 50px;
+  grid-area: tekst;
 }
-.image-container
-{
-    max-width: 200px;
-    grid-area: image;
-    height: 200px;
-    margin: 20px 20px 20px 30px;  
+.image-container {
+  max-width: 200px;
+  grid-area: image;
+  height: 200px;
+  margin: 20px 20px 20px 30px;
 }
-.name-part{
-    
-    height: 60px;
-    background-color: rgb(130, 127, 127);
-    grid-area: name;
+.name-part {
+  height: 60px;
+  background-color: rgb(130, 127, 127);
+  grid-area: name;
 }
-h1{
-    align-self: center;
-    margin: 10px 10px 20px 30px ;
+h1 {
+  align-self: center;
+  margin: 10px 10px 20px 30px;
 }
-img{
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
 }
-.Languages .title{
-    border-bottom: 1px solid white;
-    width: 300px;
-    text-align: center;
-    margin-left: 40px; 
-    
+.Languages .title {
+  border-bottom: 1px solid white;
+  width: 300px;
+  text-align: center;
+  margin-left: 40px;
 }
-.container .left-side{
-    
-    height: 1000px;
-    width: 400px;
-    background: black;  
+
+.container .left-side {
+  height: 1000px;
+  width: 400px;
+  background: black;
 }
-.contact{
-    margin: 30px;
-    padding-bottom: 40px; 
+.contact {
+  margin: 30px;
+  padding-bottom: 40px;
 }
-.personality{
-    margin: 30px;
+.personality {
+  margin: 30px;
 }
-.contact ul{
-    position: relative;
+.contact ul {
+  position: relative;
 }
-.contact ul li{
-    margin: 10px 0;
-    position: relative;
-    padding-bottom: 20px;
+.contact ul li {
+  margin: 10px 0;
+  position: relative;
+  padding-bottom: 20px;
 }
-.contact ul li .icon{
-    display: inline-block;
-    width: 40px;
-    font-size: 18px;
-    color: #03a9f4;
+.contact ul li .icon {
+  display: inline-block;
+  width: 40px;
+  font-size: 18px;
+  color: #03a9f4;
 }
-.contact ul li span{
-    color: white;
-    font-weight: 300;
+.contact ul li span {
+  color: white;
+  font-weight: 300;
 }
-.left-side .title{
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 600;
-    text-align: center;
-    align-items: center;
-    letter-spacing: 1px;
-    margin-bottom: 20px;
-    border-bottom: 3px solid white;
-    margin-top: 70px;
+.left-side .title {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  align-items: center;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  border-bottom: 3px solid white;
+  margin-top: 70px;
 }
-.personality ul li{
-    color: white;
-    margin-left: 20px;
-    padding: 10px;
-    padding-bottom: 19px;
+.personality ul li {
+  color: white;
+  margin-left: 20px;
+  padding: 10px;
+  padding-bottom: 19px;
 }
-.Languages ul li{
-    color: white;
-    margin-left: 50px;
-    padding: 10px;
+.Languages ul li {
+  color: white;
+  margin-left: 50px;
+  padding: 10px;
 }
-.container .right-side{
-    position: relative;
-    height: 1000px;
-    width: 600px;
-    background:rgb(53, 53, 136);
+.container .right-side {
+  position: relative;
+  height: 1000px;
+  width: 600px;
+  background: rgb(53, 53, 136);
 }
-.right-side .title{
-    letter-spacing: 1px;
-    margin-bottom: 20px;
-    border-bottom: 3px solid white;
-    margin-top: 70px;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 600;
+.right-side .title {
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  border-bottom: 3px solid white;
+  margin-top: 70px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
 }
-.edu{
-    margin: 30px;
-    color: white;
+.edu {
+  margin: 30px;
+  color: white;
 }
-.edu ul{
-    position: relative;
+.edu ul {
+  position: relative;
 }
-.edu ul li{
-    margin: 10px 0;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 37px;
-   
+.edu ul li {
+  margin: 10px 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 37px;
 }
-.skills{
-    margin: 30px;  
+.skills {
+  margin: 30px;
 }
-.skills ul{
-    position: relative;
+.skills ul {
+  position: relative;
 }
-.skills ul li{
-    margin: 10px 0;
-    position: relative;
-    list-style: none;
-    padding-bottom: 20px;
+.hobbies{
+  margin: 30px;
 }
-.skills ul li .icon{
-    display: inline-block;
-    width: 40px;
-    font-size: 18px;
-    color: green;
+.skills ul li {
+  margin: 10px 0;
+  position: relative;
+  list-style: none;
+  padding-bottom: 20px;
 }
-.skills ul li span{
-    color: white;
-    font-weight: 300;
+.skills ul li .icon {
+  display: inline-block;
+  width: 40px;
+  font-size: 18px;
+  color: green;
 }
-.container-images{
-    width: 500px;
-    display: flex;
-    justify-content: space-between;
-    height: 200px;
+.skills ul li span {
+  color: white;
+  font-weight: 300;
 }
-.image-and-text{
- width: 150px;
- height: 150px;
- text-align: center;
- color: white;
+.container-images {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
 }
-img{
-    width: 100%;
-    height: 100%;
+.image-and-text {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  color: white;
+}
+img {
+  width: 100%;
+  height: 100%;
 }
