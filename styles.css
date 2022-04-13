@@ -34,34 +34,26 @@ body{
     grid-template-areas: "image tekst" "name name";
     position: static;
     max-height: 500px;
-    background:gray;
+    background:rgb(83, 81, 81);
 }
 .tekst{
     width: 600px;
     height: auto;
     margin: 50px;
-    grid-area: tekst;
-    
-
-    
+    grid-area: tekst;  
 }
 .image-container
 {
     max-width: 200px;
     grid-area: image;
     height: 200px;
-    margin: 20px 20px 20px 30px;
-    
-    
+    margin: 20px 20px 20px 30px;  
 }
 .name-part{
     
     height: 60px;
-    background-color: rgb(190, 178, 178);
+    background-color: rgb(130, 127, 127);
     grid-area: name;
-
-
-    
 }
 h1{
     align-self: center;
@@ -70,29 +62,24 @@ h1{
 img{
     width: 100%;
     height: 100%;
-    
-
-   
+    border-radius: 50%;
 }
 .Languages .title{
     border-bottom: 1px solid white;
     width: 300px;
     text-align: center;
-    margin-left: 40px;
+    margin-left: 40px; 
     
 }
 .container .left-side{
     
     height: 1000px;
     width: 400px;
-    background: black;
-    
+    background: black;  
 }
 .contact{
     margin: 30px;
-    padding-bottom: 40px;
-
-    
+    padding-bottom: 40px; 
 }
 .personality{
     margin: 30px;
@@ -123,10 +110,9 @@ img{
     align-items: center;
     letter-spacing: 1px;
     margin-bottom: 20px;
-    border-bottom: 1px solid white;
+    border-bottom: 3px solid white;
     margin-top: 70px;
 }
-
 .personality ul li{
     color: white;
     margin-left: 20px;
@@ -147,7 +133,7 @@ img{
 .right-side .title{
     letter-spacing: 1px;
     margin-bottom: 20px;
-    border-bottom: 1px solid white;
+    border-bottom: 3px solid white;
     margin-top: 70px;
     color: #fff;
     text-transform: uppercase;
@@ -156,8 +142,6 @@ img{
 .edu{
     margin: 30px;
     color: white;
-    
-
 }
 .edu ul{
     position: relative;
@@ -171,8 +155,7 @@ img{
    
 }
 .skills{
-    margin: 30px;
-    
+    margin: 30px;  
 }
 .skills ul{
     position: relative;
